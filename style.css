@@ -1,0 +1,91 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+body{
+    background-color: #1A1D29;
+    color: white;
+    font-family: sans-serif;
+}
+.header{
+    background-color: #1A1D29;
+    width: 95vw;
+    height: 6rem;
+    position: relative;
+    left: 1.4rem;
+    display: flex;
+    justify-content: space-between;
+}
+.left{
+    margin: 0 1rem;
+}
+.left , .right {
+    display: flex;
+    align-items: center; 
+}
+.header .left li , .header .right li {
+    list-style: none;
+    padding-right: 1rem;
+    display: inline-block;
+}
+.header .left img{
+    width: 5.5rem;
+    height: 3.5rem;
+    padding: 0 0.5rem;
+    margin-right: 1rem;
+    position: relative;
+    bottom:5%; 
+}
+.header .right{
+    position: relative;
+}
+.header .right input[type=text]{
+    outline: 0;
+    background-color: #1A1D29;
+    color: white;
+    width: 14rem;
+    padding: 0.4rem 0;
+    border: none;
+    border-bottom: solid 0.1rem #82827d;
+}
+.header .right button{
+    background-color: #007aff;
+    color: white;
+    font-size: small;
+    font-weight: bold;
+    width: 7rem;
+    height: 1.8rem;
+    border: none;
+    border-radius: 0.2rem;
+}
+.login{
+    font-weight: bold;
+}
+.card1{
+    background-color: #191923;
+    position: relative;
+    width: 94%;
+    height: 70vh;
+    left: 2.4rem;
+    display: grid;
+    grid-template-columns: 2fr 3fr;
+}
+.card1 h1{
+    padding: 0 2rem;
+    margin: 0.8rem 0;
+    position: relative;
+    top: 4rem; 
+}
+.card1 p{
+    font-size: small;
+    line-height: 1.7rem;
+    font-weight: lighter;
+    padding: 0 2rem;
+    position: relative;
+    top: 5rem;
+}
+.card1 .img{
+    background-image: url("./assets/card1One.jpeg");
+    background-size: cover;
+    background-position: center;
+}

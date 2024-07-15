@@ -61,6 +61,10 @@ body{
 .login{
     font-weight: bold;
 }
+.container{
+    width: 100%;
+    height: 200vh;
+}
 .card1{
     background-color: #191923;
     position: relative;
@@ -88,4 +92,42 @@ body{
     background-image: url("./assets/card1One.jpeg");
     background-size: cover;
     background-position: center;
+}
+.mini-container1{
+    width: 94%;
+    height:auto;
+    margin: 1rem 2.3rem;
+    display: flex;
+    justify-content: space-between;
+} 
+.card2{
+    background-color: #273351;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 8rem;
+    width:14rem;
+    border-radius: 0.4rem;
+}
+.mini-container1 .one img{
+    height: 7rem;
+    width: 10rem;
+}
+.mini-container1 .two img{
+    height: 6rem;
+    width: 12rem;
+}
+.mini-container1 .three img{
+    height: 14rem;
+}
+.mini-container1 .four img{
+    width: 8rem;
+}
+.mini-container1 .five img{
+    width: 15rem;
+    height: 7rem;
+}
+h3{
+    padding: 0 2.3rem;
+    font-weight: lighter;
 }

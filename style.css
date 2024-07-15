@@ -10,11 +10,12 @@ body{
 .header{
     background-color: #1A1D29;
     width: 95vw;
-    height: 6rem;
-    position: relative;
+    height: 5rem;
     left: 1.4rem;
     display: flex;
     justify-content: space-between;
+    position: fixed;
+    z-index: 1;
 }
 .left{
     margin: 0 1rem;
@@ -64,6 +65,8 @@ body{
 .container{
     width: 100%;
     height: 200vh;
+    position: absolute;
+    top: 5.8rem;
 }
 .card1{
     background-color: #191923;

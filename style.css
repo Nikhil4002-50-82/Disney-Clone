@@ -184,4 +184,5 @@ h3{
     cursor: pointer;
     transform: scale(1.12);
     border-radius: 1.3rem ;
+    opacity: 0.3;
 }

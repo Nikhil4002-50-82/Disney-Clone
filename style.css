@@ -76,6 +76,7 @@ body{
     height: 190vh;
     position: absolute;
     top: 5.8rem;
+    overflow-x: hidden;
 }
 .card1{
     /* background-color:#030b17; */
@@ -159,14 +160,16 @@ h3{
     margin:1rem 0;
 }
 .mini-container2{
-    width: 100%;
+    width: 200vw;
     height: auto;
+    position: relative;
 }
 .mini-container2 .carousel{
-    width: 95%;
+    width: 190vw;
     margin: 0 2.2rem;
     display: flex;
     justify-content: space-around;
+    z-index: 0;
 }
 .mini-container2 .carousel .card3{
     height: 13rem;
@@ -184,6 +187,33 @@ h3{
     cursor: pointer;
     transform: scale(1.12);
     border-radius: 1.3rem ;
-    opacity: 0.3;
+    opacity: 0.6;
 }
-/* just testing */
+.mini-container2 .left-arrow{
+    visibility: hidden;
+    background-image: url("./assets/previous.png");
+    background-position: center;
+    background-size: cover;
+    height: 4.5rem;
+    width:2rem;
+    position: absolute;
+    top: 4rem;
+    left: 0;
+    z-index: 2;
+}
+.mini-container2 .right-arrow{
+    visibility: hidden;
+    background-image: url("./assets/next.png");
+    background-size: cover;
+    background-position: center;
+    height: 4.5rem;
+    width:2rem;
+    position: absolute;
+    top: 4rem;
+    left:96vw;
+    z-index: 2;
+}
+
+.mini-container2:hover:.right-arrow{
+    visibility: visible;
+}

@@ -191,7 +191,7 @@ h3{
 }
 .mini-container2 .left-arrow{
     visibility: hidden;
-    background-image: url("./assets/previous.png");
+    background-image: url("./assets/back2.png");
     background-position: center;
     background-size: cover;
     height: 4.5rem;
@@ -201,9 +201,13 @@ h3{
     left: 0;
     z-index: 2;
 }
+.mini-container2 button svg{
+    height: 10rem;
+    width: 5rem;
+}
 .mini-container2 .right-arrow{
-    visibility: hidden;
-    background-image: url("./assets/next.png");
+    visibility:hidden;
+    background-image: url("./assets/next2.png");
     background-size: cover;
     background-position: center;
     height: 4.5rem;
@@ -212,8 +216,4 @@ h3{
     top: 4rem;
     left:96vw;
     z-index: 2;
-}
-
-.mini-container2:hover:.right-arrow{
-    visibility: visible;
 }

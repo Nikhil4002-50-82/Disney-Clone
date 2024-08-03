@@ -191,23 +191,19 @@ h3{
 }
 .mini-container2 .left-arrow{
     visibility: hidden;
-    background-image: url("./assets/back2.png");
+    background-image: url("./assets/back4-removebg-preview.png");
     background-position: center;
     background-size: cover;
-    height: 4.5rem;
-    width:2rem;
+    height: 4rem;
+    width:2.5rem;
     position: absolute;
     top: 4rem;
     left: 0;
     z-index: 2;
 }
-.mini-container2 button svg{
-    height: 10rem;
-    width: 5rem;
-}
 .mini-container2 .right-arrow{
     visibility:hidden;
-    background-image: url("./assets/next2.png");
+    background-image: url("./assets/next4-removebg-preview.copy.png");
     background-size: cover;
     background-position: center;
     height: 4.5rem;
